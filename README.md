@@ -12,8 +12,9 @@ I'm building my first data science portfolio, focused on real-world ML, NLP, and
 |---|---|---|
 | [Workers' Compensation Claim Classification](https://github.com/guilherme-godinho/workers-compensation-claim-classification) | Multiclass ML model to predict injury type for 593K+ insurance claims. Weighted ensemble (XGBoost + LightGBM + MLP). **Grade: 20/20** | `XGBoost` `LightGBM` `Optuna` `SMOTE` `LIME` |
 | [Tweet Sentiment Analysis](https://github.com/guilherme-godinho/tweet-sentiment-analysis) | NLP pipeline classifying financial tweets as Bearish / Bullish / Neutral. Best model: RoBERTa — **Macro F1: 78.8%** | `RoBERTa` `BERT` `DistilBERT` `HuggingFace` `Optuna` |
-| SIEMENS Sales Forecast *(coming soon)* | Business case — sales forecasting with XGBoost and ARIMA/SARIMA following CRISP-DM | `XGBoost` `ARIMA` `SARIMA` |
-| Simplifica *(coming soon)* | WhatsApp bot powered by GPT-4o-mini for a Brazilian real estate company. Production-ready deploy on Railway | `FastAPI` `GPT-4o-mini` `Redis` `Twilio` `Docker` |
+| [ABCDEats Customer Segmentation](https://github.com/guilherme-godinho/abcdeats-customer-segmentation) | Customer segmentation for a food delivery platform (~31.7K customers). Best model: Hierarchical Clustering (Ward) — **4 final segments** following CRISP-DM | `scikit-learn` `K-Means` `Hierarchical Clustering` `pandas` `SciPy` |
+| [SIEMENS Sales Forecast](https://github.com/guilherme-godinho/siemens-sales-forecast) | 10-month sales forecasting for SIEMENS Smart Infrastructure. Best model: XGBoost + RFE + Optuna — **RMSE: 15.54%** (below 20% client requirement) following CRISP-DM | `XGBoost` `LightGBM` `ARIMA` `SARIMA` `Optuna` |
+| [Fidelidade MySavings Chatbot](https://github.com/guilherme-godinho/fidelidade-mysavings-chatbot) | RAG chatbot for Fidelidade insurance agents over product documentation. **100% accuracy** on client Q&A validation set. Supports 6 languages | `Azure OpenAI` `GPT-4o-mini` `RAG` `Gradio` |
 
 ---
 
